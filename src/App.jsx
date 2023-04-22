@@ -25,6 +25,7 @@ function App() {
   // Notice the value in {} is replaced by result
   return (
     <div className="app">
+      <p>Updated!</p>
       { isLoggedIn
         ? <Content
             username={username}
